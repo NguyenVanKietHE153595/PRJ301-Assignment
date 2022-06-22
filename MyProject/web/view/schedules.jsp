@@ -34,7 +34,7 @@ th {
     <th rowspan="2">
     <span class="auto-style1"><strong>YEAR</strong></span>
     <select name="year" id="year">
-	<option value="2019">2019</option>
+    <option value="2019">2019</option>
     <option value="2020">2020</option>
     <option value="2021">2021</option>
     <option selected="selected" value="2022">2022</option>
@@ -42,7 +42,8 @@ th {
   </select><br></br>
     WEEK
     <select name="week" id="week">
-    <option value="20/06 To 26/06">20/06 To 26/06</option>
+    <option value="13/06 To 19/06">13/06 To 19/06</option>
+    <option selected="selected" value="20/06 To 26/06">20/06 To 26/06</option>
     <option value="27/06 To 03/07">27/06 To 03/07</option>
     <option value="04/07 To 10/07">04/07 To 10/07</option>
   </select>
