@@ -34,7 +34,7 @@
 </style>
 </head>
 <h1>Single Activity Attendance</h1>
-<p>Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summer2022, in room BE-213 at FU-HL</p>
+<p>Attendance for PRJ301 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summer2022, in room BE-213 at FU-HL</p>
 <br>
 <body>
   <table id="attendance">

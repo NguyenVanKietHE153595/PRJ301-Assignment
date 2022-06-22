@@ -64,7 +64,7 @@ public class LoginController extends HttpServlet {
             if(l==null){
                 request.getRequestDispatcher("view/login.jsp").forward(request, response);
             }else{
-                request.getRequestDispatcher("view/welcome.jsp").forward(request, response);
+                request.getRequestDispatcher("view/schedules.jsp").forward(request, response);
             }
         }catch(ServletException | IOException e){
         } 

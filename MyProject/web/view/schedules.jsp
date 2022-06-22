@@ -69,7 +69,7 @@ th {
     <td>
     <a href="attendance.jsp">PRJ301-</a>
     <br> 
-    at BE-301
+    at BE-213
     <br>
     (<font color="Green">attended</font>)
     <br>
@@ -80,7 +80,7 @@ th {
     <td>
     <a href="attendance.jsp">PRJ301-</a>
     <br> 
-    at BE-301
+    at BE-213
     <br>
     (<font color="Green">attended</font>)
     <br>
@@ -91,7 +91,7 @@ th {
         <td>
     <a href="attendance.jsp">PRJ301-</a>
     <br> 
-    at BE-301
+    at BE-213
     <br>
     (<font color="Green">attended</font>)
     <br>
@@ -106,7 +106,7 @@ th {
     <td>
     <a href="attendance.jsp">DBI202-</a>
     <br> 
-    at BE-301
+    at BE-315
     <br>
     (<font color="Green">attended</font>)
     <br>
@@ -117,7 +117,7 @@ th {
     <td>
     <a href="attendance.jsp">DBI202-</a>
     <br> 
-    at BE-301
+    at BE-315
     <br>
     (<font color="Green">attended</font>)
     <br>
@@ -136,7 +136,7 @@ th {
     <td>
     <a href="attendance.jsp">DBI202-</a>
     <br> 
-    at BE-301
+    at BE-315
     <br>
     (<font color="Green">attended</font>)
     <br>
