@@ -8,15 +8,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+#attendance {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#attendance td, #attendance th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#attendance tr:nth-child(even){background-color: #f2f2f2;}
+
+#attendance tr:hover {background-color: #ddd;}
+
+#attendance th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
 </head>
-<body>
 <h1>Single Activity Attendance</h1>
-Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summer2022, in room BE-213 at FU-HL<br></br>
-<table>
+<p>Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summer2022, in room BE-213 at FU-HL</p>
+<br>
+<body>
+  <table id="attendance">
   <tr>
-    <th>NO
-  </th>
+    <th>NO</th>
     <th>GROUP</th>
+    <th>CODE</th>
     <th>NAME</th>
     <th>IMAGE</th>
     <th>STATUS</th>
@@ -28,6 +53,7 @@ Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summ
     <td>1</td>
     <td>PRF192</td>
     <td>HE134056</td>
+    <td>Do Manh Hung</td>
     <td>-</td>
     <td>Absent</td>
     <td>-</td>
@@ -38,6 +64,7 @@ Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summ
     <td>2</td>
 	<td>PRF192</td>
     <td>HE143348</td>
+    <td>Nguyen Viet Hoang</td>
     <td>-</td>
     <td>Present</td>
     <td>-</td>
@@ -48,6 +75,7 @@ Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summ
     <td>3</td>
     <td>PRF192</td>
     <td>HE143812</td>
+    <td>Hoang Van Tan</td>
     <td>-</td>
     <td>Present</td>
     <td>-</td>
@@ -58,6 +86,7 @@ Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summ
     <td>4</td>
     <td>PRF192</td>
     <td>HE144563</td>
+    <td>Phan Kien Quoc</td>
     <td>-</td>
     <td>Absent</td>
     <td>-</td>
@@ -68,6 +97,7 @@ Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summ
     <td>5</td>
     <td>PRF192</td>
     <td>HE143128</td>
+    <td>Vu Minh Quang</td>
     <td>-</td>
     <td>Absent</td>
     <td>-</td>
@@ -78,6 +108,7 @@ Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summ
     <td>6</td>
     <td>PRF192</td>
     <td>HE146098</td>
+    <td>Ngo Duong Ngoc</td>
     <td>-</td>
     <td>Present</td>
     <td>-</td>
@@ -88,6 +119,7 @@ Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summ
     <td>7</td>
     <td>PRF192</td>
     <td>HE150098</td>
+    <td>Tran Quy Dat</td>
     <td>-</td>
     <td>Present</td>
     <td>-</td>
@@ -98,15 +130,17 @@ Attendance for PRF192 with lecturer SONNT5 at slot 1 on Tuesday 21/06/2022, Summ
     <td>8</td>
     <td>PRF192</td>
     <td>HE153456</td>
+    <td>Nguyen Anh Long</td>
     <td>-</td>
     <td>Present</td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
   </tr>
-</table>
+	</table>
 </body>
 </html>
+
 
 
 
