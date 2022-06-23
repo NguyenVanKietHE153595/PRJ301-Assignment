@@ -78,7 +78,7 @@ th {
     </td>
     <td>-</td>
     <td>
-    <a href="attendance.jsp">PRJ301-</a>
+    <a href="http://localhost:9999/MyProject/view/attendance.jsp">PRJ301-</a>
     <br> 
     at BE-213
     <br>
@@ -89,7 +89,7 @@ th {
     </td>
     <td>-</td>
         <td>
-    <a href="attendance.jsp">PRJ301-</a>
+    <a href="http://localhost:9999/MyProject/view/attendance.jsp">PRJ301-</a>
     <br> 
     at BE-213
     <br>
@@ -104,7 +104,7 @@ th {
   <tr>
     <td>Slot 2</td>
     <td>
-    <a href="attendance.jsp">DBI202-</a>
+    <a href="http://localhost:9999/MyProject/view/attendance.jsp">DBI202-</a>
     <br> 
     at BE-315
     <br>
@@ -115,7 +115,7 @@ th {
     </td>
     <td>-</td>
     <td>
-    <a href="attendance.jsp">DBI202-</a>
+    <a href="http://localhost:9999/MyProject/view/attendance.jsp">DBI202-</a>
     <br> 
     at BE-315
     <br>
@@ -134,7 +134,7 @@ th {
     <td>-</td>
     <td>-</td>
     <td>
-    <a href="attendance.jsp">DBI202-</a>
+    <a href="http://localhost:9999/MyProject/view/attendance.jsp">DBI202-</a>
     <br> 
     at BE-315
     <br>
