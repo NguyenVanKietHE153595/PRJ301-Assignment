@@ -55,18 +55,24 @@
     <td>HE134056</td>
     <td>Do Manh Hung</td>
     <td>-</td>
-    <td>Absent</td>
+    <td>  <input type="checkbox" id="status1" name="status1" value="Absent">
+        <label for="status1"> Absent</label><br>
+        <input type="checkbox" id="status2" name="status2" value="Present">
+        <label for="status2"> Present</label><br></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
   </tr>
   <tr>
     <td>2</td>
-	<td>PRF192</td>
+    <td>PRF192</td>
     <td>HE143348</td>
     <td>Nguyen Viet Hoang</td>
     <td>-</td>
-    <td>Present</td>
+    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+        <label for="status1"> Absent</label><br>
+        <input type="checkbox" id="status2" name="status2" value="Present">
+        <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
@@ -77,7 +83,10 @@
     <td>HE143812</td>
     <td>Hoang Van Tan</td>
     <td>-</td>
-    <td>Present</td>
+    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+        <label for="status1"> Absent</label><br>
+        <input type="checkbox" id="status2" name="status2" value="Present">
+        <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
@@ -88,7 +97,10 @@
     <td>HE144563</td>
     <td>Phan Kien Quoc</td>
     <td>-</td>
-    <td>Absent</td>
+    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+        <label for="status1"> Absent</label><br>
+        <input type="checkbox" id="status2" name="status2" value="Present">
+        <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
@@ -99,7 +111,10 @@
     <td>HE143128</td>
     <td>Vu Minh Quang</td>
     <td>-</td>
-    <td>Absent</td>
+    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+        <label for="status1"> Absent</label><br>
+        <input type="checkbox" id="status2" name="status2" value="Present">
+        <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
@@ -110,7 +125,10 @@
     <td>HE146098</td>
     <td>Ngo Duong Ngoc</td>
     <td>-</td>
-    <td>Present</td>
+    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+        <label for="status1"> Absent</label><br>
+        <input type="checkbox" id="status2" name="status2" value="Present">
+        <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
@@ -121,7 +139,10 @@
     <td>HE150098</td>
     <td>Tran Quy Dat</td>
     <td>-</td>
-    <td>Present</td>
+    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+        <label for="status1"> Absent</label><br>
+        <input type="checkbox" id="status2" name="status2" value="Present">
+        <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
@@ -132,12 +153,17 @@
     <td>HE153456</td>
     <td>Nguyen Anh Long</td>
     <td>-</td>
-    <td>Present</td>
+    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+        <label for="status1"> Absent</label><br>
+        <input type="checkbox" id="status2" name="status2" value="Present">
+        <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
   </tr>
-	</table>
+    
+</table>
+    <input type="submit" value="Save">
 </body>
 </html>
 
