@@ -3,7 +3,8 @@
     Created on : Jun 20, 2022, 11:00:39 PM
     Author     : Kiet
 --%>
-
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -26,8 +27,15 @@ th {
   </select>
     </div>
   <div style="margin-bottom: 10px ;text-align: center">
-  Lecturer:<input type="text" value="lecturer" name="lecturer">
-  <input type="submit" value="View">
+   <form action="search" method="POST">
+    Lecturer:<select name="lecturerID">
+        <c:forEach items="${lecturers}" var="l">
+                    <option value="${l.lecturerID}">${l.lecturerName}</option>
+                </c:forEach>
+            </select>
+            <input type="submit" value="View"/>
+    </select>
+  </form>
   </div>
 <table border style="margin: 0 auto; width: 90%">
   <tr>
@@ -67,7 +75,7 @@ th {
   <tr>
     <td>Slot 1</td>
     <td>
-    <a href="attendance.jsp">PRJ301-</a>
+    <a href="http://localhost:9999/MyProject/view/attendance.jsp">PRJ301-</a>
     <br> 
     at BE-213
     <br>

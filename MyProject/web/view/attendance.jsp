@@ -55,10 +55,10 @@
     <td>HE134056</td>
     <td>Do Manh Hung</td>
     <td>-</td>
-    <td>  <input type="checkbox" id="status1" name="status1" value="Absent">
-        <label for="status1"> Absent</label><br>
-        <input type="checkbox" id="status2" name="status2" value="Present">
-        <label for="status2"> Present</label><br></td>
+    <td>  <input type="radio" id="status1" name="status1" value="Absent">
+        <label for="Absent"> Absent</label><br>
+        <input type="radio" id="status2" name="status1" value="Present">
+        <label for="Present"> Present</label><br></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
@@ -69,10 +69,10 @@
     <td>HE143348</td>
     <td>Nguyen Viet Hoang</td>
     <td>-</td>
-    <td><input type="checkbox" id="status1" name="status1" value="Absent">
-        <label for="status1"> Absent</label><br>
-        <input type="checkbox" id="status2" name="status2" value="Present">
-        <label for="status2"> Present</label><br></td></td>
+    <td><input type="radio" id="status1" name="status2" value="Absent">
+        <label for="Absent"> Absent</label><br>
+        <input type="radio" id="status2" name="status2" value="Present">
+        <label for="Present"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
     <td>6/20/2022 8:56:00 AM</td>
@@ -83,9 +83,9 @@
     <td>HE143812</td>
     <td>Hoang Van Tan</td>
     <td>-</td>
-    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+    <td><input type="radio" id="status1" name="status3" value="Absent">
         <label for="status1"> Absent</label><br>
-        <input type="checkbox" id="status2" name="status2" value="Present">
+        <input type="radio" id="status2" name="status3" value="Present">
         <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
@@ -97,9 +97,9 @@
     <td>HE144563</td>
     <td>Phan Kien Quoc</td>
     <td>-</td>
-    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+    <td><input type="radio" id="status1" name="status4" value="Absent">
         <label for="status1"> Absent</label><br>
-        <input type="checkbox" id="status2" name="status2" value="Present">
+        <input type="radio" id="status2" name="status4" value="Present">
         <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
@@ -111,9 +111,9 @@
     <td>HE143128</td>
     <td>Vu Minh Quang</td>
     <td>-</td>
-    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+    <td><input type="radio" id="status1" name="status5" value="Absent">
         <label for="status1"> Absent</label><br>
-        <input type="checkbox" id="status2" name="status2" value="Present">
+        <input type="radio" id="status2" name="status5" value="Present">
         <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
@@ -125,9 +125,9 @@
     <td>HE146098</td>
     <td>Ngo Duong Ngoc</td>
     <td>-</td>
-    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+    <td><input type="radio" id="status1" name="status6" value="Absent">
         <label for="status1"> Absent</label><br>
-        <input type="checkbox" id="status2" name="status2" value="Present">
+        <input type="radio" id="status2" name="status6" value="Present">
         <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
@@ -139,9 +139,9 @@
     <td>HE150098</td>
     <td>Tran Quy Dat</td>
     <td>-</td>
-    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+    <td><input type="radio" id="status1" name="status7" value="Absent">
         <label for="status1"> Absent</label><br>
-        <input type="checkbox" id="status2" name="status2" value="Present">
+        <input type="radio" id="status2" name="status7" value="Present">
         <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>
@@ -153,9 +153,9 @@
     <td>HE153456</td>
     <td>Nguyen Anh Long</td>
     <td>-</td>
-    <td><input type="checkbox" id="status1" name="status1" value="Absent">
+    <td><input type="radio" id="status1" name="status8" value="Absent">
         <label for="status1"> Absent</label><br>
-        <input type="checkbox" id="status2" name="status2" value="Present">
+        <input type="radio" id="status2" name="status8" value="Present">
         <label for="status2"> Present</label><br></td></td>
     <td>-</td>
     <td>sonnt5</td>

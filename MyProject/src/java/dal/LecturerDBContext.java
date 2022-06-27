@@ -10,53 +10,58 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import model.Login;
+import model.Lecturer;
 
 /**
  *
  * @author Kiet
  */
-public class LoginDBContext extends DBContext<Object> {
-    public Login checkLogin(String username, String password){
-        try {
-            String sql = "SELECT id,username,password FROM Login where username=? and password=?";
+public class LecturerDBContext extends DBContext<Lecturer> {
+    
+
+    @Override
+    public ArrayList<Lecturer> list() {
+        ArrayList<Lecturer> lecturers = new ArrayList<>();
+        try{
+            String sql = "SELECT lecturerID,lecturerName FROM Lecturer";
             PreparedStatement stm = connection.prepareStatement(sql);
-            stm.setString(1, username);
-            stm.setString(2, password);
             ResultSet rs = stm.executeQuery();
-            while(rs.next())
-            {
-               Login l = new Login(rs.getString(1),rs.getString(2));
-               return l;
+            while (rs.next()) {
+                Lecturer l = new Lecturer();
+                l.setLecturerID(rs.getInt("lecturerID"));
+                l.setLecturerName(rs.getString("lecturerName"));
+                lecturers.add(l);
             }
-        } catch (SQLException ex) {
-            Logger.getLogger(LoginDBContext.class.getName()).log(Level.SEVERE, null, ex);
+        }   catch (SQLException ex) {
+            Logger.getLogger(LecturerDBContext.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return null;
+        finally
+        {
+            try {
+                connection.close();
+            } catch (SQLException ex) {
+                Logger.getLogger(LecturerDBContext.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+        return lecturers;
     }
-
     @Override
-    public ArrayList<Object> list() {
+    public Lecturer get(int id) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public Object get(int id) {
+    public void insert(Lecturer model) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void insert(Object model) {
+    public void update(Lecturer model) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void update(Object model) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    @Override
-    public void delete(Object model) {
+    public void delete(Lecturer model) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
